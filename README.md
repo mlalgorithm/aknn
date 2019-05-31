@@ -5,7 +5,7 @@ Adaptive k-nearest neighbor is a general framework for variable selection in hig
 
 ## Example
 
-### To train a screening model:
+### To train:
 
 python aknnTrain.py --data 'data/ALLAML_train.csv' --out model.npz
 

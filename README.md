@@ -1,16 +1,16 @@
 # Adaptive k-nearest neighbor
 
-Adaptive k-nearest neighbor is a general framework for variable selection in high dimensional data.It can take advantage of multiple CPU cores to significantly accelerate the running time.
+Adaptive k-nearest neighbor is a general framework for variable selection in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
 
 
 ## Example
 
-### to train a screening model:
+### To train a screening model:
 
 python aknnTrain.py --data 'data/ALLAML_train.csv' --out model.npz
 
 
-### to predict on test data :
+### To predict on test data :
 
 python aknnPredict.py --data 'data/ALLAML_test.csv' --model model.npz --result Result.txt
 

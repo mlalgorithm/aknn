@@ -13,7 +13,7 @@ Adaptive k-nearest neighbor is a general framework for variable selection in hig
 ```Bash
 python aknnTrain.py --data 'data/leukemia_train.csv'
 ```
-The training result of leukemia data set:
+The result of training on leukemia data set:
 
 ![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_train.png)  
 
@@ -22,7 +22,7 @@ The training result of leukemia data set:
 ```Bash
 python aknnPredict.py --data 'data/leukemia_test.csv'
 ```
-The result on leukemia test set:
+The result of testing on leukemia test set by the trained model:
 
 ![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_test.png)  
 
@@ -51,6 +51,6 @@ usage: aknnPredict.py [-h] [--data D] [--model M] [--result R]
 optional arguments:  
 -h, --help 　 show this help message and exit  
 --data D  　  data to be screened (required)  
---model M 　  filename of the LBS model trained. the default is lbsmodel.npz(optional)  
+--model M 　  filename of the model trained. the default is lbsmodel.npz(optional)  
 --result R 　 filename to keep the result of screening. the default is Result.txt (optional)  
 

@@ -17,7 +17,7 @@ The result of training on leukemia data set:
 
 ![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_train.png)  
 
-### To predict on test data :
+### To predict:
 
 ```Bash
 python aknnPredict.py --data 'data/leukemia_test.csv'

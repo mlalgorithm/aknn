@@ -22,7 +22,7 @@ The result of training on leukemia data set:
 ```Bash
 python aknnPredict.py --data 'data/leukemia_test.csv'
 ```
-The result of testing on leukemia test set by the trained model:
+The result of prediction on leukemia test set by the trained model:
 
 ![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_test.png)  
 

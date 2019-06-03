@@ -29,8 +29,8 @@ Function: Training by Adaptive k-nearest neighbor
 usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
 optional arguments:
-ccc
-bbb
+         ccc
+         bbb
 
 
 　　　　optional arguments:

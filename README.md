@@ -21,9 +21,9 @@ python aknnPredict.py --data 'data/leukemia_test.csv'
 ```
 
 ## Usage
-
+```Bash
 aknnTrain.py
-
+```
 Function: Training by Adaptive k-nearest neighbor
 
 usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
@@ -35,9 +35,9 @@ optional arguments:
 --out O     filename to keep the output of training. the default is lbsmodel.npz (optional)    
 --cpu C     the number of CPUs to use. the default is to use all of CPUs available (optional)  
 
-
+```Bash
 aknnPredict.py
-
+```
 Function: Prediction on the test set by the trained model 
 
 usage: aknnPredict.py [-h] [--data D] [--model M] [--result R]

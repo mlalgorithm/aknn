@@ -1,6 +1,6 @@
 # Adaptive k-nearest neighbor
 
-Adaptive k-nearest neighbor is a general framework for variable selection in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
+Adaptive k-nearest neighbor (AKNN) is a general framework for variable selection in high dimensional data. AKNN generalizes well without the requirement of resampling such as cross validation. Here is a python implementation which can take advantage of multiple CPU cores to significantly accelerate the running time.
 
 |Author|Weixing Dai|
 |---|---

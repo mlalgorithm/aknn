@@ -29,7 +29,8 @@ Function: Training by Adaptive k-nearest neighbor
 usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
 optional arguments:
-　　-h, --help  show this help message and exit
+　　
+  　-h, --help  show this help message and exit
 　　--data D    data to be trained, the last column is regarded as label
               (required)
 　　--ne N      maximum number of feature subsets to be evaluated in each

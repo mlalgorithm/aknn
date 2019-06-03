@@ -13,13 +13,19 @@ Adaptive k-nearest neighbor is a general framework for variable selection in hig
 ```Bash
 python aknnTrain.py --data 'data/leukemia_train.csv'
 ```
-![][aknn_train]  
+The training result of leukemia data set:
+
+![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_train.png)  
+
 ### To predict on test data :
 
 ```Bash
 python aknnPredict.py --data 'data/leukemia_test.csv'
 ```
-![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_train.png)  
+The result on leukemia test set:
+
+![github](https://github.com/mlalgorithm/imageache/blob/master/aknn_test.png)  
+
 ## Usage
 ```Bash
 aknnTrain.py

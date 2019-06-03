@@ -7,19 +7,19 @@ Adaptive k-nearest neighbor is a general framework for variable selection in hig
 
 ### To train:
 
-python aknnTrain.py --data 'data/ALLAML_train.csv' --out model.npz
+python aknnTrain.py --data 'data/leukemia_train.csv'
 
 
 ### To predict on test data :
 
-python aknnPredict.py --data 'data/ALLAML_test.csv' --model model.npz --result Result.txt
+python aknnPredict.py --data 'data/leukemia_test.csv'
 
 
 ## Usage
 
 aknnTrain.py
 
-Training by Adaptive k-nearest neighbor
+Function: Training by Adaptive k-nearest neighbor
 
 usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
@@ -37,7 +37,7 @@ optional arguments:
 
 lbsPredict.py
 
-Prediction
+Function: Prediction on the test set by the trained model 
 
 usage: aknnPredict.py [-h] [--data D] [--model M] [--result R]
 optional arguments:

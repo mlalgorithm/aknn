@@ -31,7 +31,7 @@ usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 optional arguments:  
 -h, --help  show this help message and exit  
 --data D    data to be trained, the last column is regarded as label(required)  
---ne N      maximum number of feature subsets to be evaluated in each iteration. the default is 2000000 (optional)
+--ne N      maximum number of feature subsets to be evaluated in each iteration. the default is 2000000 (optional)  
 --out O     filename to keep the output of training. the default is lbsmodel.npz (optional)    
 --cpu C     the number of CPUs to use. the default is to use all of CPUs available (optional)  
 

@@ -2,6 +2,9 @@
 
 Adaptive k-nearest neighbor is a general framework for variable selection in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
 
+|Author|Weixing Dai|
+|---|---
+|E-mail|daiweixinghk@gmail.com
 
 ## Example
 

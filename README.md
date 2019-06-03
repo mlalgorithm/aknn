@@ -4,7 +4,7 @@ Adaptive k-nearest neighbor is a general framework for variable selection in hig
 
 |Author|Weixing Dai|
 |---|---
-|E-mail|daiweixinghk@gmail.com
+|E-mail|1155038704@link.cuhk.edu.hk
 
 ## Example
 

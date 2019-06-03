@@ -10,7 +10,7 @@ Adaptive k-nearest neighbor is a general framework for variable selection in hig
 
 ### To train:
 
-```python
+```Bash
 python aknnTrain.py --data 'data/leukemia_train.csv'
 ```
 

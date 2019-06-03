@@ -36,7 +36,7 @@ usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
 optional arguments:  
 -h, --help　  show this help message and exit  
---data D　    data to be trained, the last column is regarded as label(required)  
+--data D　    data to be trained, the last column is the labels (required)  
 --ne N 　     maximum number of feature subsets evaluated in each epoch. the default is 2000000 (optional)  
 --out O 　    filename to keep the output of training. the default is lbsmodel.npz (optional)    
 --cpu C 　    the number of CPUs to use. the default is to use all of CPUs available (optional)  
@@ -50,7 +50,7 @@ usage: aknnPredict.py [-h] [--data D] [--model M] [--result R]
 
 optional arguments:  
 -h, --help 　 show this help message and exit  
---data D  　  data to be screened (required)  
+--data D  　  data to be predicted, the last column is the labels (required)  
 --model M 　  filename of the model trained. the default is lbsmodel.npz(optional)  
---result R 　 filename to keep the result of screening. the default is Result.txt (optional)  
+--result R 　 filename to keep the result of prediction. the default is Result.txt (optional)  
 

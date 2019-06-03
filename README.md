@@ -28,8 +28,8 @@ Function: Training by Adaptive k-nearest neighbor
 
 usage: aknnTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
-aaaa
-
+optional arguments:
+ccc
 bbb
 
 

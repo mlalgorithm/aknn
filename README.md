@@ -19,7 +19,7 @@ python aknnTrain.py --data 'data/leukemia_train.csv'
 ```Bash
 python aknnPredict.py --data 'data/leukemia_test.csv'
 ```
-![][aknn_train]  
+![github][https://github.com/mlalgorithm/imageache/blob/master/aknn_train.png]  
 ## Usage
 ```Bash
 aknnTrain.py
